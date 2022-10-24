@@ -16,6 +16,5 @@
    },
    "options_page": "settings.html",
    "permissions": [ "storage" ],
-   "host_permissions": [ "https://*.atlassian.net/wiki/" ],
-   "update_url": "https://clients2.google.com/service/update2/crx"
+   "host_permissions": [ "https://*.atlassian.net/wiki/" ]
 }
