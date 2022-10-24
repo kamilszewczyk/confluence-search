@@ -4,7 +4,7 @@ chrome.storage.sync.get({ wikiUrl: '' }, function(items) {
 });
 
 let quickSearchApi  = "wiki/rest/quicknav/1/search?query=";
-let fullSearchApi  = "dosearchsite.action?queryString=";
+let fullSearchApi  = "wiki/dosearchsite.action?queryString=";
 
 let controller = new AbortController();
 let requestInProgress = false;
