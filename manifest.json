@@ -1,0 +1,21 @@
+{
+   "name": "Confluence Search",
+   "description": "Search in Confluence with 'wiki' + search word",
+   "version": "1.4",
+   "manifest_version": 3,
+   "background": {
+      "service_worker": "background.js"
+   },
+   "icons": {
+      "128": "confluence128.png",
+      "16": "confluence16.png",
+      "48": "confluence48.png"
+   },
+   "omnibox": {
+      "keyword": "wiki"
+   },
+   "options_page": "settings.html",
+   "permissions": [ "storage" ],
+   "host_permissions": [ "https://*.atlassian.net/wiki/" ],
+   "update_url": "https://clients2.google.com/service/update2/crx"
+}
